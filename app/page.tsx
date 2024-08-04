@@ -14,7 +14,7 @@ type NavbarItem = {
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip overflow-x-hidden">
       <div className="max-w-7xl w-full">
         <FloatingNavbar navItems={navItems} className="" />
         <Hero />
